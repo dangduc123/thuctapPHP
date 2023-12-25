@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	font-family: 'Arial', sans-serif;
+}
+
+#sidebar {
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #75601c;
+	padding-top: 20px;
+}
+
+#content {
+	
+}
+
+/* #sidebar a { */
+	/* padding: 16px; */
+	/* text-decoration: none; */
+	/* font-size: 18px; */
+	/* color: #818181; */
+	/* display: block; */
+/* } */
+
+/* #sidebar a:hover { */
+	/* color: #f1f1f1; */
+/* } */
+
+/* #sidebar .dropdown-content { */
+	/* display: none; */
+	/* padding-left: 20px; */
+/* } */
+
+/* #sidebar .dropdown:hover .dropdown-content { */
+	/* display: block; */
+/* } */
+
+/* #user-profile { */
+    /* display: flex; */
+    /* align-items: center; */
+    /* margin-bottom: 20px; */
+    /* color: #fff; */
+/* } */
+
+/* #user-profile img { */
+    /* width: 50px; */
+    /* height: 50px; */
+    /* border-radius: 50%; */
+    /* margin-right: 10px; */
+/* } */
+
+/* #user-profile div { */
+    /* display: flex; */
+    /* flex-direction: column; */
+/* } */
+
+#header {
+    background-color: #75601c;
+    padding: 10px;
+    text-align: right;
+	height: 100px;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+}
+
+
+#login-signup a {
+    color: #fff; /* Màu chữ của các liên kết */
+    margin-left: 10px; /* Khoảng cách giữa các liên kết */
+    text-decoration: none; /* Loại bỏ gạch chân dưới của liên kết */
+    font-weight: bold; /* In đậm chữ */
+}
+
+#login-signup p {
+    color: #fff; /* Màu chữ của các liên kết */
+    margin-left: 10px; /* Khoảng cách giữa các liên kết */
+    text-decoration: none; /* Loại bỏ gạch chân dưới của liên kết */
+    font-weight: bold; /* In đậm chữ */
+	text-decoration: none;
+}
+
+#login-signup a:hover {
+    color: black; /* Gạch chân dưới khi di chuột qua liên kết */
+}
+
+#footer{
+	background-color: #75601c;
+}
+
