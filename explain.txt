@@ -1,1 +1,0 @@
-- Sử dụng cơ sở dự liệu laravel.sql trong MySQL, trong migrations không đồng bộ.
