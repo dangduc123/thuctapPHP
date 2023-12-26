@@ -20,9 +20,6 @@ return new class extends Migration
             // Khóa ngoại
             $table->foreign('permission_id')->references('id')->on('permission')->onDelete('cascade');
             $table->foreign('role_id')->references('id')->on('role')->onDelete('cascade');
-
-            // Khóa chính kết hợp
-            $table->primary(['permission_id', 'role_id']);
         });
     }
 
