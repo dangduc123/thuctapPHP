@@ -21,11 +21,6 @@ return new class extends Migration
             $table->string('status')->default('active')->nullable();
             $table->unsignedBigInteger('ingredient_id');
 
-            $table->foreign('ingredient_id')
-                ->references('id')
-                ->on('ingredient')
-                ->onDelete('cascade'); // Optional: Add onDelete('cascade') if you want to automatically delete related products when the ingredient is deleted
-
             $table->timestamps();
         });
     }
