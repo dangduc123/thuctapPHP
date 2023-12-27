@@ -19,7 +19,6 @@ return new class extends Migration
             $table->text('description');
             $table->string('product_type');
             $table->string('status')->default('active')->nullable();
-            $table->unsignedBigInteger('ingredient_id');
 
             $table->timestamps();
         });
