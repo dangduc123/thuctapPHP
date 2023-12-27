@@ -1,0 +1,9 @@
+- Đầu tiền khi vừa tải về thì phải cập nhật composer để có thư mục vendor. Mở cmd lên và nhập: composer update.
+- Tiếp theo là tạo 1 file .env và sao chép tất cả trong file .env.example vào file .env, sau đó thì vào cmd nhập:
+php artisan key:generate. 
+- Sau đó thì nhập: php artisan migrate để tạo các bảng lên cơ sở dữ liệu.
+- Sau đó thì nhập: php artisan db:seed để tạo 1 tài khoản admin tự động.
+- Sau khi thực hiện xong các phần đó thì sẽ đăng nhập được vào trang admin và trang giao diện khách hàng với: 
+Tài khoản (email): 'duc12@gmail.com', Mật khẩu: 'password'.
+- Bạn cũng có thể đăng ký tài khoản trong trang giao diện khách hàng, 
+nhưng nếu bạn đăng ký ở đây thì bạn chỉ có quyền user và chỉ đăng nhập được với trang giao diện khách hàng.
